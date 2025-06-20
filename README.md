@@ -22,3 +22,5 @@ Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 19 Jun. 2025.
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
+
+V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
