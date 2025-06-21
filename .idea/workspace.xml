@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823de9bf-834c-4511-a3a3-ec0a41d3a2fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/json/ConfigurationLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/json/CrawlerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/main/config/sample_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/main/config/sample_config_sequential.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/parser/PageParserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/parser/PageParserFactoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/main/java/com/udacity/webcrawler/profiler/ProfilingMethodInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/SequentialWebCrawlerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/json/ConfigurationLoaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/json/CrawlResultWriterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/parser/PageParserImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/profiler/ProfilerImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd0381-advanced-java-programming-techniques-projectstarter-master/cd0381-advanced-java-programming-techniques-projectstarter-master/starter/webcrawler/src/test/java/com/udacity/webcrawler/testing/CloseableStringWriter.java" beforeDir="false" />
-    </list>
+    <list default="true" id="823de9bf-834c-4511-a3a3-ec0a41d3a2fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,18 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jwGitHub9860"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jwGitHub9860&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jwGitHub9860/Parallel_Web_Crawler.git",
-    "accountId": "8e985f96-897d-4da3-8477-bddd2cf079fc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jwGitHub9860/Parallel_Web_Crawler.git&quot;,
+    &quot;accountId&quot;: &quot;8e985f96-897d-4da3-8477-bddd2cf079fc&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -51,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "refactoring",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
