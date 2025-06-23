@@ -23,6 +23,12 @@ baeldung. “Intro to the Jackson ObjectMapper.” _Baeldung_, 8 Jan. 2024, www.
 
 csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
 
+“Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 June 2025.
+
+“Class Paths.” _Paths (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/Paths.html. Accessed 22 June 2025.
+
+“Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 June 2025.
+
 “Installing Git Large File Storage.” _GitHub Docs_, docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage. Accessed 20 Jun. 2025.
 
 jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
@@ -40,3 +46,5 @@ Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
 V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
+
+Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, Stack Overflow, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
