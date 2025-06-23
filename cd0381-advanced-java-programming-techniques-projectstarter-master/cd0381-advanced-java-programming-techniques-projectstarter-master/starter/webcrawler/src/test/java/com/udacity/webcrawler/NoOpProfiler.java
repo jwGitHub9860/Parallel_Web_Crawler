@@ -1,29 +1,3 @@
-package com.udacity.webcrawler;
-
-import com.udacity.webcrawler.profiler.Profiler;
-
-import java.io.Writer;
-import java.nio.file.Path;
-import java.util.Objects;
-
-/**
- * A fake {@link Profiler} implementation that does nothing.
- */
-public final class NoOpProfiler implements Profiler {
-
-  @Override
-  public <T> T wrap(Class<T> klass, T delegate) {
-    Objects.requireNonNull(klass);
-    return Objects.requireNonNull(delegate);
-  }
-
-  @Override
-  public void writeData(Path path) {
-    Objects.requireNonNull(path);
-  }
-
-  @Override
-  public void writeData(Writer writer) {
-    Objects.requireNonNull(writer);
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eec6ac0e1ed73b209572e52bb22095c75fc6f575939b40522e155ac7a4a4acc0
+size 614

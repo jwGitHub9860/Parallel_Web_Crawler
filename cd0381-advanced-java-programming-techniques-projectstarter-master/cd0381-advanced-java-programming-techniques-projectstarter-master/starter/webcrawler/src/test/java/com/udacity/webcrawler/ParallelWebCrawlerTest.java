@@ -1,22 +1,3 @@
-package com.udacity.webcrawler;
-
-import com.google.inject.Guice;
-import com.udacity.webcrawler.json.CrawlerConfiguration;
-import org.junit.jupiter.api.Test;
-
-import javax.inject.Inject;
-
-import static com.google.common.truth.Truth.assertThat;
-
-public final class ParallelWebCrawlerTest {
-  @Inject
-  private ParallelWebCrawler parallelWebCrawler;
-
-  @Test
-  public void testMaxParallelism() {
-    CrawlerConfiguration config = new CrawlerConfiguration.Builder().build();
-    Guice.createInjector(new WebCrawlerModule(config), new NoOpProfilerModule())
-        .injectMembers(this);
-    assertThat(parallelWebCrawler.getMaxParallelism()).isGreaterThan(1);
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e29c4e39ae79a02138682e0a42263bc8bf0615256cc7505ef23f26feaabfa6f7
+size 661

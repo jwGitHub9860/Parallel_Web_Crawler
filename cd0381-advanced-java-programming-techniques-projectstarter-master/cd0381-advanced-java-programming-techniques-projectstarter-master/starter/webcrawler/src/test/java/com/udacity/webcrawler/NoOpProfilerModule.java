@@ -1,14 +1,3 @@
-package com.udacity.webcrawler;
-
-import com.google.inject.AbstractModule;
-import com.udacity.webcrawler.profiler.Profiler;
-
-/**
- * Guice module that installs a {@link NoOpProfiler}.
- */
-public final class NoOpProfilerModule extends AbstractModule {
-  @Override
-  protected void configure() {
-    bind(Profiler.class).toInstance(new NoOpProfiler());
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:050b6de250e0ffc0c9174cbb6941967a429054552ab116ddd303a9b960f6c300
+size 355

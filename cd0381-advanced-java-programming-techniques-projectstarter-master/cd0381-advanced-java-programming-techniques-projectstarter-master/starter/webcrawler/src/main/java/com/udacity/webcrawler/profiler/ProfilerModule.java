@@ -1,20 +1,3 @@
-package com.udacity.webcrawler.profiler;
-
-import com.google.inject.AbstractModule;
-import com.google.inject.Provides;
-import com.google.inject.Singleton;
-
-import java.time.Clock;
-
-/**
- * Guice dependency injection module that installs a {@link Profiler} singleton.
- *
- * <p>Requires a {@link java.time.Clock} to already be bound.
- */
-public final class ProfilerModule extends AbstractModule {
-  @Provides
-  @Singleton
-  Profiler provideProfiler(Clock clock) {
-    return new ProfilerImpl(clock);
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9da3028e7d7f39c7555b41f338b99c347391d0183a20cfaca07d0cef983c7bcd
+size 502
