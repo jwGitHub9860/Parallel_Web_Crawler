@@ -47,4 +47,4 @@ Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: 
 
 V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
 
-Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, Stack Overflow, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
+Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, _Stack Overflow_, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
