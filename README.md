@@ -37,6 +37,8 @@ KyleUSA. “Pushing Files over 100MB to GitHub.” Edited by Amit Kumar, _Stack 
 
 “Linking a Repository to a Project (Classic).” _GitHub Docs_, docs.github.com/en/enterprise-server@3.14/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board. Accessed 20 Jun. 2025. 
 
+McKenzie, Cameron, and TechTarget. “Undo and Revert Pushed Git Commits.” _TheServerSide_, 2 Apr. 2024, www.theserverside.com/video/Undo-and-revert-pushed-Git-commits. Accessed 23 Jun. 2025.
+
 Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: Project Starter Code for Course Advanced Java Programming Techniques.” _GitHub_, Udacity, 9 Sept. 2020, github.com/udacity/cd0381-advanced-java-programming-techniques-projectstarter. Accessed 19 Jun. 2025.
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 19 Jun. 2025.
