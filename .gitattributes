@@ -10,3 +10,5 @@
 *.class filter=lfs diff=lfs merge=lfs -text
 *.lst filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
+*.ext filter=lfs diff=lfs merge=lfs -text
+C:/Users/jwori/cd0381-advanced-java-programming-techniques-projectstarter/* filter=lfs diff=lfs merge=lfs -text
