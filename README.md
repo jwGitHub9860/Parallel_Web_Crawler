@@ -47,6 +47,8 @@ nguyenquangos0302app. “Project-2-Java.” _GitHub_, 2023, github.com/nguyenqua
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 19 Jun. 2025.
 
+Poonam. “Cannot Find Symbol [ERROR] Symbol: Class JsonDeserialize.” Knowledge, Udacity, 2022, knowledge.udacity.com/questions/868805. Accessed 25 Jun. 2024.
+
 Q, Ahad. “Exercise: Jackson.” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/513425. Accessed 23 Jun. 2024.
 
 Q, Nguyen Thanh Nhat. “The Profiler Data Is Not Written to the Standard Output after profileOutputPath Is Removed.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/994012. Accessed 23 Jun. 2024.
