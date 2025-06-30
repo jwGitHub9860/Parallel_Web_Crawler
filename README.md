@@ -29,9 +29,9 @@ csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overfl
 
 “Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 June 2025.
 
-Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/980442. Accessed 27 Jun. 2025.
-
 Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-web-crawler. Accessed 27 Jun. 2025.
+
+Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/980442. Accessed 27 Jun. 2025.
 
 “HashMap Entryset() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 13 Dec. 2024, www.geeksforgeeks.org/java/hashmap-entryset-method-in-java/. Accessed 30 Jun. 2025.
 
