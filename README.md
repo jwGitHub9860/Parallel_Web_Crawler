@@ -59,6 +59,8 @@ Q, Ahad. “Exercise: Jackson.” _Knowledge_, Udacity, 2021, knowledge.udacity.
 
 Q, Nguyen Thanh Nhat. “The Profiler Data Is Not Written to the Standard Output after profileOutputPath Is Removed.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/994012. Accessed 23 Jun. 2024.
 
+“Stream In Java.” _GeeksforGeeks_, 9 Apr. 2025, www.geeksforgeeks.org/java/stream-in-java/. Accessed 30 Jun. 2025.
+
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
 V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
