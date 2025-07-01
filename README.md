@@ -61,7 +61,7 @@ Q, Nguyen Thanh Nhat. “The Profiler Data Is Not Written to the Standard Output
 
 “Stream In Java.” _GeeksforGeeks_, 9 Apr. 2025, www.geeksforgeeks.org/java/stream-in-java/. Accessed 30 Jun. 2025.
 
-“Stream.Limit() Method in Java.” GeeksforGeeks, GeeksforGeeks, 27 Aug. 2024, www.geeksforgeeks.org/java/stream-limit-method-in-java/. Accessed 30 Jun. 2025.
+“Stream.Limit() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 27 Aug. 2024, www.geeksforgeeks.org/java/stream-limit-method-in-java/. Accessed 30 Jun. 2025.
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
