@@ -71,4 +71,6 @@ V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawle
 
 Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, _Stack Overflow_, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
 
-wouldnotliketo. “Java Streams: Collect to Map Creating Two Keys for Each Stream Element.” Edited by Plaiddroid, _Stack Overflow_, 12 Nov. 2020, stackoverflow.com/questions/64801394/java-streams-collect-to-map-creating-two-keys-for-each-stream-element. 
+wouldnotliketo. “Java Streams: Collect to Map Creating Two Keys for Each Stream Element.” Edited by Plaiddroid, _Stack Overflow_, 12 Nov. 2020, stackoverflow.com/questions/64801394/java-streams-collect-to-map-creating-two-keys-for-each-stream-element. Accessed 30 Jun. 2025.
+
+xtra. “Collect Stream of EntrySet to LinkedHashMap.” _Stack Overflow_, 24 Oct. 2018, stackoverflow.com/questions/52975256/collect-stream-of-entryset-to-linkedhashmap. Accessed 1 Jul. 2025.
