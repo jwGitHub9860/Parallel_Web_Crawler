@@ -35,6 +35,8 @@ Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Kno
 
 “HashMap Entryset() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 13 Dec. 2024, www.geeksforgeeks.org/java/hashmap-entryset-method-in-java/. Accessed 30 Jun. 2025.
 
+Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, Stack Overflow, 5 Sept. 2009, stackoverflow.com/questions/1383797/java-hashmap-how-to-get-key-from-value. Accessed 30 Jun. 2025.
+
 “Installing Git Large File Storage.” _GitHub Docs_, docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage. Accessed 20 Jun. 2025.
 
 jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
