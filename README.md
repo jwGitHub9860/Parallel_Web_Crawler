@@ -21,6 +21,8 @@ _None_
 
 baeldung. “Intro to the Jackson ObjectMapper.” _Baeldung_, 8 Jan. 2024, www.baeldung.com/jackson-object-mapper-tutorial. Accessed 22 Jun. 2025.
 
+C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack, _Stack Overflow_, 9 Nov. 2016, stackoverflow.com/questions/40517977/sorting-a-list-with-stream-sorted-in-java. Accessed 1 Jul. 2025.
+
 csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
 
 “Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 June 2025.
@@ -62,6 +64,8 @@ Q, Ahad. “Exercise: Jackson.” _Knowledge_, Udacity, 2021, knowledge.udacity.
 Q, Nguyen Thanh Nhat. “The Profiler Data Is Not Written to the Standard Output after profileOutputPath Is Removed.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/994012. Accessed 23 Jun. 2024.
 
 “Stream In Java.” _GeeksforGeeks_, 9 Apr. 2025, www.geeksforgeeks.org/java/stream-in-java/. Accessed 30 Jun. 2025.
+
+“Stream Sorted() in Java.” _GeeksforGeeks_, GeeksforGeeks, 6 Dec. 2018, www.geeksforgeeks.org/java/stream-sorted-in-java/. Accessed 1 Jul. 2025.
 
 “Stream.Limit() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 27 Aug. 2024, www.geeksforgeeks.org/java/stream-limit-method-in-java/. Accessed 30 Jun. 2025.
 
