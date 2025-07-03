@@ -53,6 +53,8 @@ Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: 
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 19 Jun. 2025.
 
+N, Jimmy. “Runnig Legacy Crawler Issues.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/1004173. Accessed 3 Jul. 2025.
+
 nguyenquangos0302app. “Project-2-Java.” _GitHub_, 2023, github.com/nguyenquangos0302app/project-2-java. Accessed 23 Jun. 2024.
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 19 Jun. 2025.
