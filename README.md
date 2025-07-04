@@ -29,6 +29,10 @@ csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overfl
 
 “Class Paths.” _Paths (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/Paths.html. Accessed 22 June 2025.
 
+“ConcurrentHashMap in Java.” _GeeksforGeeks_, GeeksforGeeks, 14 Feb. 2025, www.geeksforgeeks.org/java/concurrenthashmap-in-java/. Accessed 3 Jul. 2025.
+
+“ConcurrentSkipListSet in Java.” _GeeksforGeeks_, GeeksforGeeks, 21 Feb. 2025, www.geeksforgeeks.org/java/concurrentskiplistset-in-java-with-examples/. Accessed 3 Jul. 2025.
+
 “Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 June 2025.
 
 Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-web-crawler. Accessed 27 Jun. 2025.
