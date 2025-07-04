@@ -25,15 +25,15 @@ C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack
 
 csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
 
-“Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 June 2025.
+“Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 Jun. 2025.
 
-“Class Paths.” _Paths (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/Paths.html. Accessed 22 June 2025.
+“Class Paths.” _Paths (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/Paths.html. Accessed 22 Jun. 2025.
 
 “ConcurrentHashMap in Java.” _GeeksforGeeks_, GeeksforGeeks, 14 Feb. 2025, www.geeksforgeeks.org/java/concurrenthashmap-in-java/. Accessed 3 Jul. 2025.
 
 “ConcurrentSkipListSet in Java.” _GeeksforGeeks_, GeeksforGeeks, 21 Feb. 2025, www.geeksforgeeks.org/java/concurrentskiplistset-in-java-with-examples/. Accessed 3 Jul. 2025.
 
-“Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 June 2025.
+“Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 Jun. 2025.
 
 Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-web-crawler. Accessed 27 Jun. 2025.
 
