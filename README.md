@@ -436,3 +436,116 @@ Make sure you have completed all the rubric items [here](https://review.udacity.
 ## Submit your Project
 
 You can submit your project by uploading a zip file or selecting your GitHub repo on the Udacity website.
+
+
+
+
+
+
+
+
+## Description Summary:
+
+The project is a web crawler called <ins>**UdaciSearch**</ins> that involves improving the web crawler's performance and search engine optimization (SEO).
+
+## Date created
+
+**6/19/2025**
+
+## Udacity Mentors Who Have Answered Questions In _Knowledge_ To Help With Project
+
+- Hager
+- leokury
+
+## Credits
+###### References used while making project
+
+547n00n. “Symfony 4 : Use MaxDepth Annotation of Jms Serializer.” _Stack Overflow_, 21 Feb. 2020, stackoverflow.com/questions/60339870/symfony-4-use-maxdepth-annotation-of-jms-serializer. Accessed 6 Jul. 2025.
+
+“About Git Large File Storage.” _GitHub Docs_, docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage. Accessed 20 Jun. 2025.
+
+“Adding a File to a Repository.” _GitHub Docs_, docs.github.com/en/enterprise-server@3.13/repositories/working-with-files/managing-files/adding-a-file-to-a-repository. Accessed 20 Jun. 2025.
+
+“Annotation Type Ignore.” _Ignore - TESTNG 7.0.0-Beta1 Javadoc_, javadoc.io/doc/org.testng/testng/7.0.0-beta1/org/testng/annotations/Ignore.html. Accessed 8 Jul. 2025. 
+
+baeldung. “Intro to the Jackson ObjectMapper.” _Baeldung_, 8 Jan. 2024, www.baeldung.com/jackson-object-mapper-tutorial. Accessed 22 Jun. 2025.
+
+C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack, _Stack Overflow_, 9 Nov. 2016, stackoverflow.com/questions/40517977/sorting-a-list-with-stream-sorted-in-java. Accessed 1 Jul. 2025.
+
+“Class Class.” _Class (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/lang/Class.html. Accessed 10 Jul. 2025.
+
+“Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 Jun. 2025.
+
+"Class InvocationTargetException." _InvocationTargetException (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/lang/reflect/InvocationTargetException.html. Accessed 11 Jul. 2025.
+
+“Class Paths.” _Paths (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/Paths.html. Accessed 22 Jun. 2025.
+
+“Class Proxy.” _Proxy (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/lang/reflect/Proxy.html. Accessed 9 Jul. 2025. 
+
+“Class Throwable.” _Throwable (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html. Access 10 Jul. 2025.
+
+“ConcurrentHashMap in Java.” _GeeksforGeeks_, GeeksforGeeks, 14 Feb. 2025, www.geeksforgeeks.org/java/concurrenthashmap-in-java/. Accessed 3 Jul. 2025.
+
+“ConcurrentSkipListSet in Java.” _GeeksforGeeks_, GeeksforGeeks, 21 Feb. 2025, www.geeksforgeeks.org/java/concurrentskiplistset-in-java-with-examples/. Accessed 3 Jul. 2025.
+
+csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
+
+“Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 Jun. 2025.
+
+Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-web-crawler. Accessed 27 Jun. 2025.
+
+Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/980442. Accessed 27 Jun. 2025.
+
+“HashMap Entryset() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 13 Dec. 2024, www.geeksforgeeks.org/java/hashmap-entryset-method-in-java/. Accessed 30 Jun. 2025.
+
+Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _Stack Overflow_, 5 Sept. 2009, stackoverflow.com/questions/1383797/java-hashmap-how-to-get-key-from-value. Accessed 30 Jun. 2025.
+
+“How to Measure Time Taken by a Function in Java ?” _GeeksforGeeks_, GeeksforGeeks, 30 Apr. 2024, www.geeksforgeeks.org/java/measure-time-taken-function-java/. Accessed 10 Jul. 2025.
+
+“Installing Git Large File Storage.” _GitHub Docs_, docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage. Accessed 20 Jun. 2025.
+
+“Interface JavaHasAnnotations.” _JavaHasAnnotations (Oracle Fusion Middleware Java API Reference for Oracle Extension SDK)_, 19 July 2017, docs.oracle.com/cd/E92951_01/jdev/api-reference-esdk/oracle/javatools/parser/java/v2/model/JavaHasAnnotations.html. Accessed 9 Jul. 2025.
+
+jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
+
+KyleUSA. “Pushing Files over 100MB to GitHub.” Edited by Amit Kumar, _Stack Overflow_, 21 Jan. 2021, stackoverflow.com/questions/65820300/pushing-files-over-100mb-to-github.  Accessed 20 Jun. 2025.
+
+“Linking a Repository to a Project (Classic).” _GitHub Docs_, docs.github.com/en/enterprise-server@3.14/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board. Accessed 20 Jun. 2025. 
+
+McKenzie, Cameron, and TechTarget. “Undo and Revert Pushed Git Commits.” _TheServerSide_, 2 Apr. 2024, www.theserverside.com/video/Undo-and-revert-pushed-Git-commits. Accessed 23 Jun. 2025.
+
+Mido055. “Udacity/CD0381-Advanced-Java-Programming-Techniques-Projectstarter: Project Starter Code for Course Advanced Java Programming Techniques.” _GitHub_, Udacity, 9 Sept. 2020, github.com/udacity/cd0381-advanced-java-programming-techniques-projectstarter. Accessed 19 Jun. 2025.
+
+“MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 19 Jun. 2025.
+
+N, Jimmy. “Profiler Performance Errors.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/1006591. Accessed 11 Jul. 2025.
+
+N, Jimmy. “Runnig Legacy Crawler Issues.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/1004173. Accessed 3 Jul. 2025.
+
+nguyenquangos0302app. “Project-2-Java.” _GitHub_, 2023, github.com/nguyenquangos0302app/project-2-java. Accessed 23 Jun. 2024.
+
+“Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 19 Jun. 2025.
+
+Poonam. “Cannot Find Symbol [ERROR] Symbol: Class JsonDeserialize.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/868805. Accessed 25 Jun. 2024.
+
+Q, Ahad. “Exercise: Jackson.” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/513425. Accessed 23 Jun. 2024.
+
+Q, Nguyen Thanh Nhat. “The Profiler Data Is Not Written to the Standard Output after profileOutputPath Is Removed.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/994012. Accessed 23 Jun. 2024.
+
+Singh_Kmc, Pratyush. “@ignore Annotation in JUnit.” _Code 360 by Coding Ninjas_, 26 Mar. 2024, www.naukri.com/code360/library/ignore-annotation-in-junit. Accessed 8 Jul. 2025.
+
+“Stream In Java.” _GeeksforGeeks_, 9 Apr. 2025, www.geeksforgeeks.org/java/stream-in-java/. Accessed 30 Jun. 2025.
+
+“Stream Sorted() in Java.” _GeeksforGeeks_, GeeksforGeeks, 6 Dec. 2018, www.geeksforgeeks.org/java/stream-sorted-in-java/. Accessed 1 Jul. 2025.
+
+“Stream.Limit() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 27 Aug. 2024, www.geeksforgeeks.org/java/stream-limit-method-in-java/. Accessed 30 Jun. 2025.
+
+“Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
+
+V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
+
+Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, _Stack Overflow_, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
+
+wouldnotliketo. “Java Streams: Collect to Map Creating Two Keys for Each Stream Element.” Edited by Plaiddroid, _Stack Overflow_, 12 Nov. 2020, stackoverflow.com/questions/64801394/java-streams-collect-to-map-creating-two-keys-for-each-stream-element. Accessed 30 Jun. 2025.
+
+xtra. “Collect Stream of EntrySet to LinkedHashMap.” _Stack Overflow_, 24 Oct. 2018, stackoverflow.com/questions/52975256/collect-stream-of-entryset-to-linkedhashmap. Accessed 1 Jul. 2025.
