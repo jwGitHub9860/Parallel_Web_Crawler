@@ -3,6 +3,10 @@ package com.udacity.webcrawler.profiler;
 import javax.inject.Inject;
 import java.io.IOException;
 import java.io.Writer;
+import java.lang.reflect.InvocationHandler; // defines "Handler"
+import java.lang.reflect.Method; // defines "Method"
+import java.lang.reflect.Proxy; // allows use of dynamic proxy
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Clock;
 import java.time.ZonedDateTime;
@@ -27,19 +31,49 @@ final class ProfilerImpl implements Profiler {
 
   @Override
   public <T> T wrap(Class<T> klass, T delegate) {
+    // Gets Rid of Unused Variable Warning
     Objects.requireNonNull(klass);
 
     // TODO: Use a dynamic proxy (java.lang.reflect.Proxy) to "wrap" the delegate in a
     //       ProfilingMethodInterceptor and return a dynamic proxy from this method.
     //       See https://docs.oracle.com/javase/10/docs/api/java/lang/reflect/Proxy.html.
 
-    return delegate;
+    // Checks if "klass" Has NO Annotation
+    if (!hasAnnotation(klass)) {
+      throw new IllegalArgumentException("Please make sure that " + klass.getName() + " has annotations.");
+    }
+
+    // Calls "ProfilingMethodInterceptor" Constructor to "wrap" "delegate" in "ProfilingMethodInterceptor" & Create Handler for Dynamic Proxy Instance
+    ProfilingMethodInterceptor profilerImplHandler = new ProfilingMethodInterceptor(this.clock, delegate, this.state, this.startTime);
+
+    // Creates Dynamic Proxy Instance
+    Object proxy = Proxy.newProxyInstance( // proxy MUST BE "Object" variable WHEN FIRST CREATED To Allow Proxy To Be Created With Different Types Of Variables
+            // Passes in "ProfilingMethodInterceptor" as Class Loader
+            ProfilingMethodInterceptor.class.getClassLoader(), // MUST USE ".class" TO CORRECTLY PASS CLASS AS CLASS LOADER & "Object" allows use of Different Types Of Variables to create proxy instance
+            // Passes in "Objects.requireNonNull(klass)" as Interface that Proxy should implement
+            new Class[]{Objects.requireNonNull(klass)}, // "Object" allows use of Different Types Of Variables to create proxy instance
+            // Passes in Custom Invocation Handler
+            profilerImplHandler);
+
+    // Return Dynamic Proxy from method
+    return (T) proxy; // proxy delegates to "T"
   }
 
   @Override
   public void writeData(Path path) {
     // TODO: Write the ProfilingState data to the given file path. If a file already exists at that
     //       path, the new data should be appended to the existing file.
+
+    // Gets Rid of Unused Variable Warning
+    Objects.requireNonNull(path);
+
+    // Creates "Writer" (JSON string) from "Path" file
+    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path))) { // "Files.newBufferedWriter()" - creates writer (JSON string) from "Path" file
+      // Calls "writeData(Writer writer)" Method to Write to File
+      writeData(path);
+    } catch (java.lang.Exception e) {
+      throw new RuntimeException(e);
+    }
   }
 
   @Override
@@ -48,5 +82,20 @@ final class ProfilerImpl implements Profiler {
     writer.write(System.lineSeparator());
     state.write(writer);
     writer.write(System.lineSeparator());
+  }
+
+  @Profiled
+  public boolean hasAnnotation(Class<?> klass) throws IllegalArgumentException {
+    // Returns Annotation(s) of "klass"
+    Method[] annotationMethods = klass.getDeclaredMethods(); // use array because there may be more that 1 element
+
+    // Iterates Through "annotationMethods" Array
+    for (Method annotationMethod : annotationMethods) {
+      // Check if "annotationMethod" is NOT Empty
+      if (annotationMethod.getAnnotation(Profiled.class) != null) {
+        return true;
+      }
+    }
+    return false;
   }
 }
