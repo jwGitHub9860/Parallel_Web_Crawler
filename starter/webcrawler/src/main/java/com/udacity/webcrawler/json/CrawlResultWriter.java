@@ -1,5 +1,9 @@
 package com.udacity.webcrawler.json;
 
+// Defines "ObjectMapper" by Creating new "com.fasterxml.jackson.databind.ObjectMapper"
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.nio.file.Files;
 import java.io.Writer;
 import java.nio.file.Path;
 import java.util.Objects;
@@ -29,6 +33,14 @@ public final class CrawlResultWriter {
     // This is here to get rid of the unused variable warning.
     Objects.requireNonNull(path);
     // TODO: Fill in this method.
+
+    // Creates "Writer" (JSON string) from "Path" file
+    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path))) { // "Files.newBufferedWriter()" - creates writer (JSON string) from "Path" file
+      // Calls "write(Writer writer)" Method to Write to File
+      write(path);
+    } catch (java.lang.Exception e) {
+      throw new RuntimeException(e);
+    }
   }
 
   /**
@@ -40,5 +52,14 @@ public final class CrawlResultWriter {
     // This is here to get rid of the unused variable warning.
     Objects.requireNonNull(writer);
     // TODO: Fill in this method.
+    try {
+      // Creates "ObjectMapper" Instance & Serialize Java objects into JSON
+      ObjectMapper objectMapper = new ObjectMapper();
+
+      // Calls ".writeValue()" for "objectMapper" to Write to "result" File
+      objectMapper.writeValue(Objects.requireNonNull(writer), result); // "result" File is DEFINED in "CrawlResultWriter" constructor
+    } catch (java.lang.Exception e) {
+      throw new RuntimeException(e);
+    }
   }
 }
