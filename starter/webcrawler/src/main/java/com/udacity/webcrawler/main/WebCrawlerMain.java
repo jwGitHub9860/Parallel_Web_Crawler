@@ -49,7 +49,7 @@ public final class WebCrawlerMain {
       try (Writer writer = new OutputStreamWriter(System.out)) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
         // Passes "writer" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "resultWriter"
         resultWriter.write(writer);
-      } catch (java.lang.Exception e) {
+      } catch (Exception e) {
         throw new RuntimeException(e);
       }
     }
@@ -66,7 +66,7 @@ public final class WebCrawlerMain {
       try (Writer writer = new BufferedWriter(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
         // Writes "writer" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
         profiler.writeData(writer); // "writeData()" -> general method that writes data to specific location
-      } catch (java.lang.Exception e) {
+      } catch (Exception e) {
         throw new RuntimeException(e);
       }
     }
