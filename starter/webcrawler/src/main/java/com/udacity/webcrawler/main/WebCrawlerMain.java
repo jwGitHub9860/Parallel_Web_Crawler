@@ -63,7 +63,7 @@ public final class WebCrawlerMain {
       profiler.writeData(resultPath); // "writeData()" -> general method that writes data to specific location
     } else {
       // Creates "Writer" (JSON string) from "System.out"
-      try (Writer writer = new ObjectOutputStream(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
+      try (Writer writer = new BufferedWriter(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
         // Writes "writer" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
         profiler.writeData(writer); // "writeData()" -> general method that writes data to specific location
       } catch (java.lang.Exception e) {
