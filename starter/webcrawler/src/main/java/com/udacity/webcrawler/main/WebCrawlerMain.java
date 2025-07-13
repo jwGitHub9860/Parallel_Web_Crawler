@@ -64,7 +64,7 @@ public final class WebCrawlerMain {
     } else {
       // Creates "Writer" (JSON string) from "System.out"
       try (Writer writer = new BufferedWriter(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
-        // Writes "writer" to "profiler"
+        // Writes "writer" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
         profiler.writeData(writer); // "writeData()" -> general method that writes data to specific location
       } catch (java.lang.Exception e) {
         throw new RuntimeException(e);
