@@ -35,20 +35,20 @@ public final class WebCrawlerMain {
     Guice.createInjector(new WebCrawlerModule(config), new ProfilerModule()).injectMembers(this);
 
     CrawlResult result = crawler.crawl(config.getStartPages());
-    CrawlResultWriter resultWriter = new CrawlResultWriter(result);
+    CrawlResultWriter crawlResultWriter = new CrawlResultWriter(result);
     // TODO: Write the crawl results to a JSON file (or System.out if the file name is empty)
     // Checks if "config.getResultPath()" Value is NOT Empty
     if (!config.getResultPath().isEmpty()) {
       // Creates "Path" using "config.getResultPath()" as File Name
       Path resultPath = Path.of(config.getResultPath());
 
-      // Passes "resultPath" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "resultWriter"
-      resultWriter.write(resultPath);
+      // Passes "resultPath" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "crawlResultWriter"
+      crawlResultWriter.write(resultPath);
     } else {
       // Creates "Writer" (JSON string) from "System.out"
       try (Writer writer = new OutputStreamWriter(System.out)) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
-        // Passes "writer" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "resultWriter"
-        resultWriter.write(writer);
+        // Passes "writer" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "crawlResultWriter"
+        crawlResultWriter.write(writer);
       } catch (Exception e) {
         throw new RuntimeException(e);
       }
