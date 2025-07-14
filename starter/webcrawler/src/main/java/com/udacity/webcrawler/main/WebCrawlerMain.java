@@ -57,10 +57,10 @@ public final class WebCrawlerMain {
     // Checks if "config.getProfileOutputPath()" Value is NOT Empty
     if (!config.getProfileOutputPath().isEmpty()) {
       // Creates "Path" using "config.getProfileOutputPath()" as File Name
-      Path resultPath = Path.of(config.getProfileOutputPath());
+      Path profilePath = Path.of(config.getProfileOutputPath());
 
-      // Writes "resultPath" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
-      profiler.writeData(resultPath); // "writeData()" -> general method that writes data to specific location
+      // Writes "profilePath" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
+      profiler.writeData(profilePath); // "writeData()" -> general method that writes data to specific location
     } else {
       // Creates "Writer" (JSON string) from "System.out"
       try (Writer writer = new BufferedWriter(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
