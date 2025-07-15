@@ -38,8 +38,8 @@ public final class CrawlResultWriter {
     Objects.requireNonNull(path);
     // TODO: Fill in this method.
 
-    // Creates "Writer" (JSON string) from "Path" file; "StandardOpenOption.CREATE" Creates New File If it Does NOT Exist,
-    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path), StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // "Files.newBufferedWriter()" - creates writer (JSON string) from "Path" file
+    // Creates "Writer" (JSON string) from "Path" file; "StandardOpenOption.CREATE" -> Creates New File If it Does NOT Exist; "StandardOpenOption.APPEND" -> Writes To File If File is OPEN;
+    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path), StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // "Files.newBufferedWriter()" -> creates writer (JSON string) from "Path" file
       // Writes Bytes to File -> Properly Serializing JSON to File, Ensuring "Writer" Closes Correctly By try-with-resources, & Avoiding Recursion that Causes Stream Handling Issues
       write(writer); // write(path) -> "writer(Path path)" method contains recursive call that prevents proper stream closure, creating infinite loop that prevents proper stream closure
     } catch (java.lang.Exception e) {
