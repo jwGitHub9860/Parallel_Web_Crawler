@@ -69,7 +69,7 @@ final class ProfilerImpl implements Profiler {
     Objects.requireNonNull(path);
 
     // Creates Object Output Stream of "Writer" (JSON string) from "Path" file
-    try (Writer writer = Files.ObjectOutputStream(Objects.requireNonNull(path))) { // "Files.ObjectOutputStream()" -> allows Serialized Data to be Written To File
+    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path))) { // "Files.newBufferedWriter()" - creates writer (JSON string) from "Path" file
       // Calls "writeData(Writer writer)" Method to Write to File -> Properly Serializing JSON to File, Ensuring "Writer" Closes Correctly By try-with-resources, & Avoiding Recursion that Causes Stream Handling Issues
       writeData(writer); // writeData(path) -> "writeData(Path path)" method contains recursive call that prevents proper stream closure, creating infinite loop that prevents proper stream closure
     } catch (java.lang.Exception e) {
