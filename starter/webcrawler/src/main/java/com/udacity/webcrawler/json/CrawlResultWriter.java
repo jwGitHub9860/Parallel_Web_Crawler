@@ -35,7 +35,7 @@ public final class CrawlResultWriter {
    */
   public void write(Path path) {
     // This is here to get rid of the unused variable warning.
-    Objects.requireNonNull(path);
+    Objects.requireNonNull(path); // CANNOT Be Used in "newBufferedWriter()" When Creating "Writer" (JSON string) from "Path" file or Stream Will NOT Be Able To Close, ULTIMATELY CAUSING ERROR
     // TODO: Fill in this method.
 
     // Creates "Writer" (JSON string) from "Path" file; "StandardOpenOption.CREATE" -> Creates New File If it Does NOT Exist; "StandardOpenOption.APPEND" -> Writes To File If File is OPEN; "{}" of try block -> Uses "try-with-resources idiom" When Creating Output Stream to Guarantee File Will Be Closed
