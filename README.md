@@ -478,6 +478,8 @@ Chandrakant, Kumar. “Guide to Java OutputStream.” _Baeldung_, 24 Apr. 2025, 
 
 “Class FileOutputStream.” _FileOutputStream (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html. Accessed 15 Jul. 2025.
 
+“Class Files.” _Files (Java Platform SE 8 )_, 15 July 2025, docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#newBufferedWriter-java.nio.file.Path-java.nio.charset.Charset-java.nio.file.OpenOption...-. Accessed 15 Jul. 2025.
+
 “Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 Jun. 2025.
 
 "Class InvocationTargetException." _InvocationTargetException (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/lang/reflect/InvocationTargetException.html. Accessed 11 Jul. 2025.
