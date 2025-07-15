@@ -496,6 +496,8 @@ Chandrakant, Kumar. “Guide to Java OutputStream.” _Baeldung_, 24 Apr. 2025, 
 
 csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
 
+“Enum StandardOpenOption.” _Standardopenoption (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/nio/file/StandardOpenOption.html. Accessed 15 Jul. 2025.
+
 “Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 Jun. 2025.
 
 “FileOutputStream in Java.” _GeeksforGeeks_, GeeksforGeeks, 10 Mar. 2025, www.geeksforgeeks.org/java/fileoutputstream-in-java/. Accessed 15 Jul. 2025.
