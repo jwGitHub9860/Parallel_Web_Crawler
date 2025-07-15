@@ -4,7 +4,9 @@ package com.udacity.webcrawler.json;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.nio.file.Files;
+import java.io.FileOutputStream; // defines "ObjectOutputStream" and/or "Files.ObjectOutputStream"
 import java.io.ObjectOutputStream; // defines "ObjectOutputStream" and/or "Files.ObjectOutputStream"
+import java.io.OutputStreamWriter; // defines "OutputStreamWriter"
 import java.io.Writer;
 import java.nio.file.Path;
 import java.util.Objects;
@@ -36,7 +38,7 @@ public final class CrawlResultWriter {
     // TODO: Fill in this method.
 
     // Creates "Writer" (JSON string) from "Path" file
-    try (Writer writer = new OutputStreamWriter(Files.newOutputStream(Objects.requireNonNull(path)))) { // "Files.ObjectOutputStream()" -> allows Serialized Data to be Written To File
+    try (Writer writer = Files.newOutputStream(Objects.requireNonNull(path))) { // "Files.ObjectOutputStream()" -> allows Serialized Data to be Written To File
       // Writes Bytes to File -> Properly Serializing JSON to File, Ensuring "Writer" Closes Correctly By try-with-resources, & Avoiding Recursion that Causes Stream Handling Issues
       write(writer); // write(path) -> "writer(Path path)" method contains recursive call that prevents proper stream closure, creating infinite loop that prevents proper stream closure
     } catch (java.lang.Exception e) {
