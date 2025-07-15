@@ -548,6 +548,8 @@ Singh_Kmc, Pratyush. “@ignore Annotation in JUnit.” _Code 360 by Coding Ninj
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
+“Uses of Class Java.Io.OutputStream.” _Java Platform SE 8_, docs.oracle.com/javase/8/docs/api/index.html?java%2Fio%2Fclass-use%2FOutputStream.html. Accessed 15 July 2025.
+
 V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
 
 Walker, Richard. “How to Read Value from JSON with Jackson Java.” Edited by Gawi and LHCHIN, _Stack Overflow_, 12 Jan. 2022, stackoverflow.com/questions/70679000/how-to-read-value-from-json-with-jackson-java. Accessed 22 Jun. 2025.
