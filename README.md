@@ -472,7 +472,11 @@ baeldung. “Intro to the Jackson ObjectMapper.” _Baeldung_, 8 Jan. 2024, www.
 
 C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack, _Stack Overflow_, 9 Nov. 2016, stackoverflow.com/questions/40517977/sorting-a-list-with-stream-sorted-in-java. Accessed 1 Jul. 2025.
 
+Chandrakant, Kumar. “Guide to Java OutputStream.” _Baeldung_, 24 Apr. 2025, www.baeldung.com/java-outputstream. Accessed 15 Jul. 2025.
+
 “Class Class.” _Class (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/lang/Class.html. Accessed 10 Jul. 2025.
+
+“Class FileOutputStream.” _FileOutputStream (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html. Accessed 15 Jul. 2025.
 
 “Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 Jun. 2025.
 
@@ -491,6 +495,8 @@ C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack
 csa. “Git LFS Track Folder Recursively.” Edited by Sschuberth, _Stack Overflow_, 3 Mar. 2016, stackoverflow.com/questions/35769330/git-lfs-track-folder-recursively. Accessed 20 Jun. 2025.
 
 “Enum StandardOpenOption.” _Standardopenoption (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/nio/file/StandardOpenOption.html. Accessed 22 Jun. 2025.
+
+“FileOutputStream in Java.” _GeeksforGeeks_, GeeksforGeeks, 10 Mar. 2025, www.geeksforgeeks.org/java/fileoutputstream-in-java/. Accessed 15 Jul. 2025.
 
 Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-web-crawler. Accessed 27 Jun. 2025.
 
