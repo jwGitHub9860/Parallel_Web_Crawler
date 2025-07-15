@@ -39,7 +39,7 @@ public final class CrawlResultWriter {
     // TODO: Fill in this method.
 
     // Creates "Writer" (JSON string) from "Path" file; "StandardOpenOption.CREATE" -> Creates New File If it Does NOT Exist; "StandardOpenOption.APPEND" -> Writes To File If File is OPEN; "{}" of try block -> Uses "try-with-resources idiom" When Creating Output Stream to Guarantee File Will Be Closed
-    try (Writer writer = Files.newBufferedWriter(Objects.requireNonNull(path), StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // "Files.newBufferedWriter()" -> creates writer (JSON string) from "Path" file & "ObjectOutputStream" CANNOT BE USED Because "ObjectOutputStream" CANNOT BE CONVERTED TO "Writer"
+    try (Writer writer = Files.newBufferedWriter(path, StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // "Files.newBufferedWriter()" -> creates writer (JSON string) from "Path" file & "ObjectOutputStream" CANNOT BE USED Because "ObjectOutputStream" CANNOT BE CONVERTED TO "Writer"
       // Writes Bytes to File -> Properly Serializing JSON to File, Ensuring "Writer" Closes Correctly By try-with-resources, & Avoiding Recursion that Causes Stream Handling Issues
       write(writer); // write(path) -> "writer(Path path)" method contains recursive call that prevents proper stream closure, creating infinite loop that prevents proper stream closure
     } catch (java.lang.Exception e) {
