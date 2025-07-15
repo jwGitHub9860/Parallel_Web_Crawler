@@ -42,8 +42,6 @@ public final class CrawlResultWriter {
     try (Writer writer = Files.newBufferedWriter(path, StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // "Files.newBufferedWriter()" -> creates writer (JSON string) from "Path" file & "ObjectOutputStream" CANNOT BE USED Because "ObjectOutputStream" CANNOT BE CONVERTED TO "Writer"
       // Writes Bytes to File -> Properly Serializing JSON to File, Ensuring "Writer" Closes Correctly By try-with-resources, & Avoiding Recursion that Causes Stream Handling Issues
       write(writer); // write(path) -> "writer(Path path)" method contains recursive call that prevents proper stream closure, creating infinite loop that prevents proper stream closure
-    } catch (java.lang.Exception e) {
-      throw new RuntimeException(e);
     }
   }
 
