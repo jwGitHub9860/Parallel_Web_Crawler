@@ -58,7 +58,7 @@ public final class ConfigurationLoader {
       // Serialize Java objects into JSON & Creates "ObjectMapper" Instance
       ObjectMapper objectMapper = new ObjectMapper(); // creates new Jackson "objectMapper"
 
-      // Disables "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE" to Prevent Jackson Library from Closing Input "Reader"
+      // Disables Feature that Automatically Closes "ObjectMapper" to Prevent Jackson Library from Closing Input "Reader"
       objectMapper.disable(JsonParser.Feature.AUTO_CLOSE_SOURCE);
 
       // Creates "CrawlerConfiguration" Instance
