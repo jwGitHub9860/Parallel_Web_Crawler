@@ -14,12 +14,11 @@ import java.io.Reader;
 import java.nio.file.Path;
 import java.util.Objects;
 
-// Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method
-@JsonDeserialize(builder = CrawlerConfiguration.Builder.class) // Jackson JSON-parsing annotation
-
 /**
  * A static utility class that loads a JSON configuration file.
  */
+// Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method
+@JsonDeserialize(builder = CrawlerConfiguration.Builder.class) // Jackson JSON-parsing annotation
 public final class ConfigurationLoader {
 
   private final Path path;
