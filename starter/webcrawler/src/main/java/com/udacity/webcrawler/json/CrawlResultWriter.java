@@ -58,8 +58,11 @@ public final class CrawlResultWriter {
       // Creates "ObjectMapper" Instance & Serialize Java objects into JSON
       ObjectMapper objectMapper = new ObjectMapper();
 
-      // Disables "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE" to Prevent Jackson Library from Closing Input "Reader"
+      // Disables "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE" to Prevent Jackson Library from Closing Input
       objectMapper.disable(JsonParser.Feature.AUTO_CLOSE_SOURCE);
+
+      // Disables "OutputStream" from Automatically Closing After ".writeValue()" is Used for "ObjectMapper"
+      objectMapper.disable(JsonGenerator.Feature.AUTO_CLOSE_TARGET);
 
       // Calls ".writeValue()" for "objectMapper" to Write to "result" File
       objectMapper.writeValue(Objects.requireNonNull(writer), result); // "result" File is DEFINED in "CrawlResultWriter" constructor
