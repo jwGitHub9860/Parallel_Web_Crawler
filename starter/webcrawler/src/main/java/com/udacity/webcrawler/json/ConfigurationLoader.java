@@ -64,6 +64,9 @@ public final class ConfigurationLoader {
       // Disables Feature that Automatically Closes "ObjectMapper" to Prevent Jackson Library from Closing Input "Reader"
       objectMapper.disable(JsonParser.Feature.AUTO_CLOSE_SOURCE);
 
+      // Disables "OutputStream" from Automatically Closing After ".readValue()" is Used for "ObjectMapper"
+      objectMapper.disable(JsonGenerator.Feature.AUTO_CLOSE_TARGET);
+
       // Creates "CrawlerConfiguration" Instance
       CrawlerConfiguration jsonInput = objectMapper
               // Calls ".readValue()" for "ObjectMapper"
