@@ -18,8 +18,8 @@ import java.util.stream.Collectors;
 /**
  * A data class that represents the configuration of a single web crawl.
  */
-// Tells Jackson that "CrawlerConfiguration" Uses Builder Pattern by Annotating "CrawlerConfiguration" class with "@JsonDeserialize" Annotation
-@JsonDeserialize(builder = CrawlerConfiguration.Builder.class)
+// Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method & Tells Jackson that "CrawlerConfiguration" Uses Builder Pattern by Annotating "CrawlerConfiguration" class with "@JsonDeserialize" Annotation
+@JsonDeserialize(builder = CrawlerConfiguration.Builder.class) // Jackson JSON-parsing annotation
 public final class CrawlerConfiguration {
 
   private final List<String> startPages;
