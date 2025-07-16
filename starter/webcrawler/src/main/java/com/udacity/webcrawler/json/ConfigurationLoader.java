@@ -68,7 +68,7 @@ public final class ConfigurationLoader {
       // Creates "CrawlerConfiguration" Instance
       CrawlerConfiguration jsonInput = objectMapper
               // Calls ".readValue()" for "ObjectMapper"
-              .readValue(Objects.requireNonNull(reader), CrawlerConfiguration.Builder.class) // to implement "CrawlerConfiguration read(Reader reader)" method
+              .readValue(reader, CrawlerConfiguration.Builder.class) // to implement "CrawlerConfiguration read(Reader reader)" method
               // Returns Final "ObjectMapper" Instance AS Last Step in Creating "ObjectMapper" Instance
               .build();
 
