@@ -3,6 +3,9 @@ package com.udacity.webcrawler.json;
 // Defines "ObjectMapper" by Creating new "com.fasterxml.jackson.databind.ObjectMapper"
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+// Creates new "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE"
+import com.fasterxml.jackson.core.JsonParser;
+
 import java.nio.file.Files;
 import java.io.FileOutputStream; // defines "FileOutputStream"
 import java.io.ObjectOutputStream; // defines "ObjectOutputStream" and/or "Files.ObjectOutputStream"
