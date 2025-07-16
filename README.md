@@ -508,6 +508,8 @@ Gidebus. “Udacity-Web-Crawler.” _GitHub_, 2023, github.com/gidebus/udacity-w
 
 Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/980442. Accessed 27 Jun. 2025.
 
+gsgx, and StaxMan. “Java Program Terminating after ObjectMapper.writeValue(System.out, responseData) - Jackson Library.” _Stack Overflow_, 4 Dec. 2011, stackoverflow.com/questions/8372549/java-program-terminating-after-objectmapper-writevaluesystem-out-responsedata. Accessed 15 Jul. 2025.
+
 “HashMap Entryset() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 13 Dec. 2024, www.geeksforgeeks.org/java/hashmap-entryset-method-in-java/. Accessed 30 Jun. 2025.
 
 Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _Stack Overflow_, 5 Sept. 2009, stackoverflow.com/questions/1383797/java-hashmap-how-to-get-key-from-value. Accessed 30 Jun. 2025.
