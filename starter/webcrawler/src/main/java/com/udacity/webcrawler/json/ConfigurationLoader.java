@@ -37,7 +37,7 @@ public final class ConfigurationLoader {
   public CrawlerConfiguration load() throws Exception {
     // TODO: Fill in this method.
 
-    // Creates "Reader" (JSON string) from "Path" file
+    // Creates "Reader" (JSON string) from "Path" file; "{}" of try block -> Uses "try-with-resources idiom" When Creating Output Stream to Guarantee File Will Be Closed
     try (Reader reader = Files.newBufferedReader(path)) { // "Files.newBufferedReader()" - creates reader (JSON string) from "Path" file
       // Passes "reader" (JSON string) into "read(Reader reader)" method & Returns "CrawlerConfiguration" Result
       return read(reader);
