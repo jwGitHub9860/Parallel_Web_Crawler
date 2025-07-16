@@ -41,8 +41,6 @@ public final class ConfigurationLoader {
     try (Reader reader = Files.newBufferedReader(path)) { // "Files.newBufferedReader()" - creates reader (JSON string) from "Path" file
       // Passes "reader" (JSON string) into "read(Reader reader)" method & Returns "CrawlerConfiguration" Result
       return read(reader);
-    } catch (Exception e) {
-      throw new RuntimeException(e);
     }
   }
 
