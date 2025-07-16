@@ -60,6 +60,8 @@ public final class CrawlResultWriter {
 
       // Calls ".writeValue()" for "objectMapper" to Write to "result" File
       objectMapper.writeValue(Objects.requireNonNull(writer), result); // "result" File is DEFINED in "CrawlResultWriter" constructor
+    } catch (java.lang.Exception e) {
+      throw new RuntimeException(e);
     }
   }
 }
