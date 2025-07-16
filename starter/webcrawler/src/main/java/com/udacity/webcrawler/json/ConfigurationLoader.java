@@ -34,7 +34,7 @@ public final class ConfigurationLoader {
    * @return the loaded {@link CrawlerConfiguration}.
    */
   // Reads JSON string from "Path" File
-  public CrawlerConfiguration load() {
+  public CrawlerConfiguration load() throws Exception {
     // TODO: Fill in this method.
 
     // Creates "Reader" (JSON string) from "Path" file
