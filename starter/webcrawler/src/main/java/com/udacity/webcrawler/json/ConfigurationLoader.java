@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.ObjectMapper; // to implement "CrawlerConf
 // Creates new "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE"
 import com.fasterxml.jackson.core.JsonParser;
 
+// Defines "@JsonDeserialize" Annotation
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
 import java.nio.file.Files;
 import java.io.Reader;
 import java.nio.file.Path;
