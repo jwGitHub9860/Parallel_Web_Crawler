@@ -15,7 +15,7 @@ import java.nio.file.Path;
 import java.util.Objects;
 
 // Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method
-@JsonDeserialize // Jackson JSON-parsing annotation
+@JsonDeserialize(builder = CrawlerConfiguration.Builder.class) // Jackson JSON-parsing annotation
 
 /**
  * A static utility class that loads a JSON configuration file.
