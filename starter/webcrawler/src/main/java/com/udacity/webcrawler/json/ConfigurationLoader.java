@@ -76,5 +76,6 @@ public final class ConfigurationLoader {
     } catch (Exception e) {
       e.printStackTrace();
     }
+    return null;
   }
 }
