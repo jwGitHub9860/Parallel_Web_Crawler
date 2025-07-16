@@ -47,6 +47,9 @@ public final class ConfigurationLoader {
    * @param reader a Reader pointing to a JSON string that contains crawler configuration.
    * @return a crawler configuration
    */
+  // Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method
+  @JsonDeserialize // Jackson JSON-parsing annotation
+
   // Reads JSON input & De-serializes (or Parses) it into "CrawlerConfiguration" using Jackson JSON Library
   public static CrawlerConfiguration read(Reader reader) {
     // This is here to get rid of the unused variable warning.
