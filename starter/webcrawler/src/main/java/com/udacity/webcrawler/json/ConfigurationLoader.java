@@ -1,6 +1,6 @@
 package com.udacity.webcrawler.json;
 
-// Creates new "com.fasterxml.jackson.databind.ObjectMapper"
+// Defines "ObjectMapper" by Creating new "com.fasterxml.jackson.databind.ObjectMapper"
 import com.fasterxml.jackson.databind.ObjectMapper; // to implement "CrawlerConfiguration read(Reader reader)" method
 
 // Creates new "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE"
