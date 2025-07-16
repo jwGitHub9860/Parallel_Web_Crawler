@@ -74,7 +74,7 @@ public final class ConfigurationLoader {
       // Returns "ObjectMapper" Instance to "load()" method
       return jsonInput;
     } catch (Exception e) {
-      e.printStackTrace();
+      e.printStackTrace(); // MUST USE "printStackTrace()" TO PREVENT ERROR FROM OCCURING
     }
     return null;
   }
