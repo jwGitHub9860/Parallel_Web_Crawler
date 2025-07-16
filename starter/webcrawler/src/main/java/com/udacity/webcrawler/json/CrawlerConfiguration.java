@@ -5,6 +5,8 @@ package com.udacity.webcrawler.json;
 // Defines "@JsonDeserialize" & "@JsonProperty" annotations
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+// Defines "@JsonDeserialize" Annotation
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.time.Duration;
