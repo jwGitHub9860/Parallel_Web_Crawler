@@ -3,9 +3,6 @@ package com.udacity.webcrawler.json;
 // Defines "ObjectMapper" by Creating new "com.fasterxml.jackson.databind.ObjectMapper"
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-// Creates new "com.fasterxml.jackson.core.JsonParser.Feature.AUTO_CLOSE_SOURCE"
-import com.fasterxml.jackson.core.JsonParser;
-
 // Defines "JsonGenerator" by Creating new "com.fasterxml.jackson.core.JsonGenerator.Feature.AUTO_CLOSE_TARGET"
 import com.fasterxml.jackson.core.JsonGenerator;
 
