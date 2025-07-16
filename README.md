@@ -520,6 +520,8 @@ Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _St
 
 “Interface JavaHasAnnotations.” _JavaHasAnnotations (Oracle Fusion Middleware Java API Reference for Oracle Extension SDK)_, 19 July 2017, docs.oracle.com/cd/E92951_01/jdev/api-reference-esdk/oracle/javatools/parser/java/v2/model/JavaHasAnnotations.html. Accessed 9 Jul. 2025.
 
+“Jackson Annotations - @JsonDeserialize.” _Tutorialspoint_, TutorialsPoint, www.tutorialspoint.com/jackson_annotations/jackson_annotations_jsondeserialize.htm. Accessed 16 July 2025. 
+
 jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
 
 KyleUSA. “Pushing Files over 100MB to GitHub.” Edited by Amit Kumar, _Stack Overflow_, 21 Jan. 2021, stackoverflow.com/questions/65820300/pushing-files-over-100mb-to-github.  Accessed 20 Jun. 2025.
