@@ -2,7 +2,7 @@ package com.udacity.webcrawler.json;
 
 // Setters & Add Methods MUST HAVE ANNOTATIONS Because Error Will Occur If Getters & Add Methods Do Not Have Annotations
 
-// Defines "@JsonDeserialize" & "@JsonProperty" annotations
+// Defines "ObjectMapper"
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
