@@ -480,7 +480,7 @@ Chandrakant, Kumar. “Guide to Java OutputStream.” _Baeldung_, 24 Apr. 2025, 
 
 “Class FileOutputStream.” _FileOutputStream (Java Platform SE 8 )_, 5 Apr. 2025, docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html. Accessed 15 Jul. 2025.
 
-“Class Files.” _Files (Java Platform SE 8 )_, 15 July 2025, docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#newBufferedWriter-java.nio.file.Path-java.nio.charset.Charset-java.nio.file.OpenOption...-. Accessed 15 Jul. 2025.
+“Class Files.” _Files (Java Platform SE 8 )_, 15 Jul. 2025, docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#newBufferedWriter-java.nio.file.Path-java.nio.charset.Charset-java.nio.file.OpenOption...-. Accessed 15 Jul. 2025.
 
 “Class InputStream.” _InputStream (Java SE 10 & JDK 10 )_, docs.oracle.com/javase/10/docs/api/java/io/InputStream.html. Accessed 22 Jun. 2025.
 
@@ -522,9 +522,9 @@ Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _St
 
 “Installing Git Large File Storage.” _GitHub Docs_, docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage. Accessed 20 Jun. 2025.
 
-“Interface JavaHasAnnotations.” _JavaHasAnnotations (Oracle Fusion Middleware Java API Reference for Oracle Extension SDK)_, 19 July 2017, docs.oracle.com/cd/E92951_01/jdev/api-reference-esdk/oracle/javatools/parser/java/v2/model/JavaHasAnnotations.html. Accessed 9 Jul. 2025.
+“Interface JavaHasAnnotations.” _JavaHasAnnotations (Oracle Fusion Middleware Java API Reference for Oracle Extension SDK)_, 19 Jul. 2017, docs.oracle.com/cd/E92951_01/jdev/api-reference-esdk/oracle/javatools/parser/java/v2/model/JavaHasAnnotations.html. Accessed 9 Jul. 2025.
 
-“Jackson Annotations - @JsonDeserialize.” _Tutorialspoint_, TutorialsPoint, www.tutorialspoint.com/jackson_annotations/jackson_annotations_jsondeserialize.htm. Accessed 16 July 2025. 
+“Jackson Annotations - @JsonDeserialize.” _Tutorialspoint_, TutorialsPoint, www.tutorialspoint.com/jackson_annotations/jackson_annotations_jsondeserialize.htm. Accessed 16 Jul. 2025. 
 
 jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
 
@@ -566,7 +566,7 @@ Singh_Kmc, Pratyush. “@ignore Annotation in JUnit.” _Code 360 by Coding Ninj
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
-“Uses of Class Java.Io.OutputStream.” _Java Platform SE 8_, docs.oracle.com/javase/8/docs/api/index.html?java%2Fio%2Fclass-use%2FOutputStream.html. Accessed 15 July 2025.
+“Uses of Class Java.Io.OutputStream.” _Java Platform SE 8_, docs.oracle.com/javase/8/docs/api/index.html?java%2Fio%2Fclass-use%2FOutputStream.html. Accessed 15 Jul. 2025.
 
 V, Daniela. “Unknown Lifecycle Phase \".Udacity.Webcrawler.SequentialWebCrawler\".” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/963871. Accessed 19 Jun. 2025.
 
