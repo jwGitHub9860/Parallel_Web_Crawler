@@ -556,6 +556,8 @@ Singh_Kmc, Pratyush. “@ignore Annotation in JUnit.” _Code 360 by Coding Ninj
 
 “Stream.Limit() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 27 Aug. 2024, www.geeksforgeeks.org/java/stream-limit-method-in-java/. Accessed 30 Jun. 2025.
 
+“Throwable printStackTrace() Method in Java with Examples.” _GeeksforGeeks_, GeeksforGeeks, 15 Oct. 2021, www.geeksforgeeks.org/java/throwable-printstacktrace-method-in-java-with-examples/. Accessed 16 Jul. 2025.
+
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 19 Jun. 2025.
 
 “Uses of Class Java.Io.OutputStream.” _Java Platform SE 8_, docs.oracle.com/javase/8/docs/api/index.html?java%2Fio%2Fclass-use%2FOutputStream.html. Accessed 15 July 2025.
