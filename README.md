@@ -470,6 +470,8 @@ The project is a web crawler called <ins>**UdaciSearch**</ins> that involves imp
 
 baeldung. “Intro to the Jackson ObjectMapper.” _Baeldung_, 8 Jan. 2024, www.baeldung.com/jackson-object-mapper-tutorial. Accessed 22 Jun. 2025.
 
+Bryan. “Step 7. Run the Parallel Crawler!” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/685009. Accessed 16 Jul. 2025.
+
 C, Ivan. “Sorting a List with Stream.Sorted() in Java.” Edited by Rogerdpack, _Stack Overflow_, 9 Nov. 2016, stackoverflow.com/questions/40517977/sorting-a-list-with-stream-sorted-in-java. Accessed 1 Jul. 2025.
 
 Chandrakant, Kumar. “Guide to Java OutputStream.” _Baeldung_, 24 Apr. 2025, www.baeldung.com/java-outputstream. Accessed 15 Jul. 2025.
@@ -510,6 +512,8 @@ Gilberto. “How to Implement Custom Crawler Task on ParallelWebCrawler.” _Kno
 
 gsgx, and StaxMan. “Java Program Terminating after ObjectMapper.writeValue(System.out, responseData) - Jackson Library.” _Stack Overflow_, 4 Dec. 2011, stackoverflow.com/questions/8372549/java-program-terminating-after-objectmapper-writevaluesystem-out-responsedata. Accessed 15 Jul. 2025.
 
+H, Jude. “I Get an Error When i Run the Command in Step 7.” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/980713. Accessed 16 Jul. 2025.
+
 “HashMap Entryset() Method in Java.” _GeeksforGeeks_, GeeksforGeeks, 13 Dec. 2024, www.geeksforgeeks.org/java/hashmap-entryset-method-in-java/. Accessed 30 Jun. 2025.
 
 Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _Stack Overflow_, 5 Sept. 2009, stackoverflow.com/questions/1383797/java-hashmap-how-to-get-key-from-value. Accessed 30 Jun. 2025.
@@ -523,6 +527,8 @@ Heiner, Nick. “Java Hashmap: How to Get Key from Value?” Edited by Pang, _St
 “Jackson Annotations - @JsonDeserialize.” _Tutorialspoint_, TutorialsPoint, www.tutorialspoint.com/jackson_annotations/jackson_annotations_jsondeserialize.htm. Accessed 16 July 2025. 
 
 jgreen81. “How to Make Change to .Gitattributes Take Effect.” Edited by Ratata Tata, _Stack Overflow_, 6 Feb. 2018, stackoverflow.com/questions/48642692/how-to-make-change-to-gitattributes-take-effect. Accessed 20 Jun. 2025.
+
+K, Supriya. “ParallelWebCrawler Fail to Run (Step 7).” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/844983. Accessed 16 Jul. 2025.
 
 KyleUSA. “Pushing Files over 100MB to GitHub.” Edited by Amit Kumar, _Stack Overflow_, 21 Jan. 2021, stackoverflow.com/questions/65820300/pushing-files-over-100mb-to-github.  Accessed 20 Jun. 2025.
 
