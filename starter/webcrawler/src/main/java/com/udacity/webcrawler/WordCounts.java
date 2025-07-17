@@ -3,7 +3,11 @@ package com.udacity.webcrawler;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.PriorityQueue;
+
+import static java.lang.Math.min;
+import static java.util.stream.Collectors.toMap;
 
 /**
  * Utility class that sorts the map of word counts.
@@ -28,8 +32,25 @@ final class WordCounts {
   static Map<String, Integer> sort(Map<String, Integer> wordCounts, int popularWordCount) {
 
     // TODO: Reimplement this method using only the Stream API and lambdas and/or method references.
+    return wordCounts
+            // Iterates over all Key-Value Pairs in Map
+            .entrySet()
+            // Processes Data in "wordCounts" AS "STREAM" to Iterate Over "wordCounts" & Sort Elements within "wordCounts"
+            .stream()
+            // Sorts "wordCounts" According to "WordCountComparator()" method
+            .sorted(new WordCountComparator())
+            // Limits Range of "wordCounts" Stream
+            .limit(min(popularWordCount, wordCounts.size()))
+            // Takes Only Non-Null Values
+            .filter(Objects::nonNull)
+            // Obtains Key-Value Pairs within "wordCounts" Map
+            .collect(toMap(Map.Entry::getKey, Map.Entry::getValue,
+                    // Returns "key" When Provided With "key" & "value"
+                    (key, value) -> key, // lambda
+                    // Creates New "LinkedHashMap"
+                    LinkedHashMap::new));
 
-    PriorityQueue<Map.Entry<String, Integer>> sortedCounts =
+    /*PriorityQueue<Map.Entry<String, Integer>> sortedCounts =
         new PriorityQueue<>(wordCounts.size(), new WordCountComparator());
     sortedCounts.addAll(wordCounts.entrySet());
     Map<String, Integer> topCounts = new LinkedHashMap<>();
@@ -37,7 +58,7 @@ final class WordCounts {
       Map.Entry<String, Integer> entry = sortedCounts.poll();
       topCounts.put(entry.getKey(), entry.getValue());
     }
-    return topCounts;
+    return topCounts;*/
   }
 
   /**

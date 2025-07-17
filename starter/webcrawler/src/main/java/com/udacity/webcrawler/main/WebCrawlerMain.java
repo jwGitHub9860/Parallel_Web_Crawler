@@ -35,9 +35,41 @@ public final class WebCrawlerMain {
     Guice.createInjector(new WebCrawlerModule(config), new ProfilerModule()).injectMembers(this);
 
     CrawlResult result = crawler.crawl(config.getStartPages());
-    CrawlResultWriter resultWriter = new CrawlResultWriter(result);
+    CrawlResultWriter crawlResultWriter = new CrawlResultWriter(result);
     // TODO: Write the crawl results to a JSON file (or System.out if the file name is empty)
+    // Checks if "config.getResultPath()" Value is NOT Empty
+    if (!config.getResultPath().isEmpty()) {
+      // Creates "Path" using "config.getResultPath()" as File Name
+      Path resultPath = Path.of(config.getResultPath());
+
+      // Passes "resultPath" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "crawlResultWriter"
+      crawlResultWriter.write(resultPath);
+    } else {
+      // Creates "Writer" (JSON string) from "System.out"
+      try (Writer writer = new OutputStreamWriter(System.out)) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
+        // Passes "writer" to "CrawlResultWriter write(Path)" Method to Write Crawl Results to "crawlResultWriter"
+        crawlResultWriter.write(writer);
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
     // TODO: Write the profile data to a text file (or System.out if the file name is empty)
+    // Checks if "config.getProfileOutputPath()" Value is NOT Empty
+    if (!config.getProfileOutputPath().isEmpty()) {
+      // Creates "Path" using "config.getProfileOutputPath()" as File Name
+      Path profilePath = Path.of(config.getProfileOutputPath());
+
+      // Writes "profilePath" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
+      profiler.writeData(profilePath); // "writeData()" -> general method that writes data to specific location
+    } else {
+      // Creates "Writer" (JSON string) from "System.out"
+      try (Writer writer = new BufferedWriter(new OutputStreamWriter(System.out))) { // "OutputStreamWriter" -> converts "System.out" to "Writer"
+        // Writes "writer" to "profiler" by Calling "writeData(Path path)" Method from "Profiler.java"
+        profiler.writeData(writer); // "writeData()" -> general method that writes data to specific location
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+    }
   }
 
   public static void main(String[] args) throws Exception {

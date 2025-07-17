@@ -1,5 +1,16 @@
 package com.udacity.webcrawler.json;
 
+// Setters & Add Methods MUST HAVE ANNOTATIONS Because Error Will Occur If Getters & Add Methods Do Not Have Annotations
+
+// Defines "ObjectMapper"
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+// Defines "@JsonProperty" Annotation
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+// Defines "@JsonDeserialize" Annotation
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
 import java.time.Duration;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -11,6 +22,8 @@ import java.util.stream.Collectors;
 /**
  * A data class that represents the configuration of a single web crawl.
  */
+// Marks "CrawlerConfiguration read(Reader reader)" method as Deserialization Target to Deserialize JSON input & Complete Method & Tells Jackson that "CrawlerConfiguration" Uses Builder Pattern by Annotating "CrawlerConfiguration" class with "@JsonDeserialize" Annotation
+@JsonDeserialize(builder = CrawlerConfiguration.Builder.class) // Jackson JSON-parsing annotation
 public final class CrawlerConfiguration {
 
   private final List<String> startPages;
@@ -25,16 +38,16 @@ public final class CrawlerConfiguration {
   private final String resultPath;
 
   private CrawlerConfiguration(
-      List<String> startPages,
-      List<Pattern> ignoredUrls,
-      List<Pattern> ignoredWords,
-      int parallelism,
-      String implementationOverride,
-      int maxDepth,
-      Duration timeout,
-      int popularWordCount,
-      String profileOutputPath,
-      String resultPath) {
+          List<String> startPages,
+          List<Pattern> ignoredUrls,
+          List<Pattern> ignoredWords,
+          int parallelism,
+          String implementationOverride,
+          int maxDepth,
+          Duration timeout,
+          int popularWordCount,
+          String profileOutputPath,
+          String resultPath) {
     this.startPages = startPages;
     this.ignoredUrls = ignoredUrls;
     this.ignoredWords = ignoredWords;
@@ -190,6 +203,8 @@ public final class CrawlerConfiguration {
      *
      * <p>Does nothing if the given page has already been added. See {@link #getStartPages()}.
      */
+    // Maps "startPages" in JSON to "addStartPages(String... startPages)" method with "@JsonProperty"
+    @JsonProperty("startPages") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder addStartPages(String... startPages) {
       for (String startPage : startPages) {
         this.startPages.add(Objects.requireNonNull(startPage));
@@ -204,6 +219,8 @@ public final class CrawlerConfiguration {
      *
      * @param patterns one or more regular expressions that define a valid {@link Pattern}.
      */
+    // Maps "ignoredUrls" in JSON to "addIgnoredUrls(String... patterns)" method with "@JsonProperty"
+    @JsonProperty("ignoredUrls") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder addIgnoredUrls(String... patterns) {
       for (String pattern : patterns) {
         ignoredUrls.add(Objects.requireNonNull(pattern));
@@ -222,6 +239,8 @@ public final class CrawlerConfiguration {
      *
      * @param patterns one or more regular expressions that define a valid {@link Pattern}.
      */
+    // Maps "ignoredWords" in JSON to "addIgnoredWords(String... patterns)" method with "@JsonProperty"
+    @JsonProperty("ignoredWords") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder addIgnoredWords(String... patterns) {
       for (String pattern : patterns) {
         ignoredWords.add(Objects.requireNonNull(pattern));
@@ -234,6 +253,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getParallelism()}.
      */
+    // Maps "parallelism" in JSON to "setParallelism(int parallelism)" method with "@JsonProperty"
+    @JsonProperty("parallelism") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setParallelism(int parallelism) {
       this.parallelism = parallelism;
       return this;
@@ -245,6 +266,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getImplementationOverride()}.
      */
+    // Maps "implementationOverride" in JSON to "setImplementationOverride(String implementationOverride)" method with "@JsonProperty"
+    @JsonProperty("implementationOverride") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setImplementationOverride(String implementationOverride) {
       this.implementationOverride = Objects.requireNonNull(implementationOverride);
       return this;
@@ -255,6 +278,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getMaxDepth()}.
      */
+    // Maps "maxDepth" in JSON to "setMaxDepth(int maxDepth)" method with "@JsonProperty"
+    @JsonProperty("maxDepth") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setMaxDepth(int maxDepth) {
       this.maxDepth = maxDepth;
       return this;
@@ -265,6 +290,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getTimeout()}.
      */
+    // Maps "timeoutSeconds" in JSON to "setTimeoutSeconds(int seconds)" method with "@JsonProperty"
+    @JsonProperty("timeoutSeconds") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setTimeoutSeconds(int seconds) {
       this.timeoutSeconds = seconds;
       return this;
@@ -275,6 +302,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getPopularWordCount()}.
      */
+    // Maps "popularWordCount" in JSON to "setPopularWordCount(int popularWordCount)" method with "@JsonProperty"
+    @JsonProperty("popularWordCount") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setPopularWordCount(int popularWordCount) {
       this.popularWordCount = popularWordCount;
       return this;
@@ -285,6 +314,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getProfileOutputPath()}.
      */
+    // Maps "profileOutputPath" in JSON to "setProfileOutputPath(String profileOutputPath)" method with "@JsonProperty"
+    @JsonProperty("profileOutputPath") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setProfileOutputPath(String profileOutputPath) {
       this.profileOutputPath = Objects.requireNonNull(profileOutputPath);
       return this;
@@ -295,6 +326,8 @@ public final class CrawlerConfiguration {
      *
      * <p>See {@link #getResultPath()}.
      */
+    // Maps "resultPath" in JSON to "setResultPath(String resultPath)" method with "@JsonProperty"
+    @JsonProperty("resultPath") // defines mapping between JSON property names & builder methods by annotating all builder's setter methods with "@JsonProperty"
     public Builder setResultPath(String resultPath) {
       this.resultPath = Objects.requireNonNull(resultPath);
       return this;
@@ -315,16 +348,16 @@ public final class CrawlerConfiguration {
       }
 
       return new CrawlerConfiguration(
-          startPages.stream().collect(Collectors.toUnmodifiableList()),
-          ignoredUrls.stream().map(Pattern::compile).collect(Collectors.toUnmodifiableList()),
-          ignoredWords.stream().map(Pattern::compile).collect(Collectors.toUnmodifiableList()),
-          parallelism,
-          implementationOverride,
-          maxDepth,
-          Duration.ofSeconds(timeoutSeconds),
-          popularWordCount,
-          profileOutputPath,
-          resultPath);
+              startPages.stream().collect(Collectors.toUnmodifiableList()),
+              ignoredUrls.stream().map(Pattern::compile).collect(Collectors.toUnmodifiableList()),
+              ignoredWords.stream().map(Pattern::compile).collect(Collectors.toUnmodifiableList()),
+              parallelism,
+              implementationOverride,
+              maxDepth,
+              Duration.ofSeconds(timeoutSeconds),
+              popularWordCount,
+              profileOutputPath,
+              resultPath);
     }
   }
 }
